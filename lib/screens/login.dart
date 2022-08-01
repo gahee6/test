@@ -35,7 +35,7 @@ class AuthPage extends StatelessWidget {
                 height: size.height * 0.1,
               ),
               TextButton(
-                child: Text("Don't Have an Account? Create One"),
+                child: Text("서누바보"),
               onPressed: (){
                   JoinOrLogin joinOrLogin = Provider.of<JoinOrLogin>(context);
                   joinOrLogin.toggle();
